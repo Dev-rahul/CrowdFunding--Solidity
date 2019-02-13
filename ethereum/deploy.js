@@ -3,8 +3,8 @@ const Web3 = require('web3');
 const compiledFactory = require('./build/CampaignFactory.json');
 
 
-const provider = new HDWalletProvider('analyst differ truly very vehicle bid owner case other visit strategy pretty',
-'https://rinkeby.infura.io/v3/93b3dd172fe340cc8b2a7b9f6d247306');
+const provider = new HDWalletProvider('Put your Secret key here',
+'Link to infura project');
 
 const web3 = new Web3(provider);
 
